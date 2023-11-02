@@ -41,6 +41,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Add"/>
+                                <connections>
+                                    <action selector="addAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NZ5-Uj-8FR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -52,6 +55,10 @@
                             <constraint firstItem="pHX-7G-1nL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zxY-Ci-jIY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableViewOutlet" destination="pHX-7G-1nL" id="diD-IO-vuo"/>
+                        <outlet property="textFieldOutlet" destination="oSe-9V-JDa" id="blS-lN-n1S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
