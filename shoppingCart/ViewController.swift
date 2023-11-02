@@ -42,7 +42,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     
     @IBAction func addAction(_ sender: UIButton) {
-        
+        list.append(textFieldOutlet.text!)
         
         tableViewOutlet.reloadData()
     }
